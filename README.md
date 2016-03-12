@@ -1,7 +1,12 @@
 # shadowsocks
+```
+sudo touch /etc/shadowsocks.json
+sudo nano /etc/shadowsocks.json
+sudo nano /etc/rc.local
+```
 
-add /etc/shadowsocks.json
 
+add below to /etc/shadowsocks.json
 
 ```
 {
