@@ -1,10 +1,10 @@
 # shadowsocks
+
 ```
 sudo touch /etc/shadowsocks.json
 sudo nano /etc/shadowsocks.json
 sudo nano /etc/rc.local
 ```
-
 
 add below to /etc/shadowsocks.json
 
@@ -20,7 +20,6 @@ add below to /etc/shadowsocks.json
     "fast_open": false
 }
 ```
-
 
 add this line to /etc/rc.local
 ```
