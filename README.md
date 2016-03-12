@@ -1,6 +1,7 @@
 # shadowsocks
 
 ```
+sudo pip install shadowsocks
 sudo touch /etc/shadowsocks.json
 sudo nano /etc/shadowsocks.json
 sudo nano /etc/rc.local
