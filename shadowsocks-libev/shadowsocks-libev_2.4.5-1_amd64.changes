@@ -1,0 +1,41 @@
+Format: 1.8
+Date: Mon, 01 Feb 2016 13:22:50 +0800
+Source: shadowsocks-libev
+Binary: shadowsocks-libev libshadowsocks1 libshadowsocks-dev libshadowsocks-dbg
+Architecture: source amd64
+Version: 2.4.5-1
+Distribution: unstable
+Urgency: low
+Maintainer: Max Lv <max.c.lv@gmail.com>
+Changed-By: Max Lv <max.c.lv@gmail.com>
+Description:
+ libshadowsocks-dbg - debugging symbols for the libshadowsocks1 library
+ libshadowsocks-dev - lightweight and secure socks5 proxy (development files)
+ libshadowsocks1 - lightweight and secure socks5 proxy (shared library)
+ shadowsocks-libev - lightweight and secure socks5 proxy
+Changes:
+ shadowsocks-libev (2.4.5-1) unstable; urgency=low
+ .
+   * Fix build issues on OpenWRT.
+   * Reduce the latency of redir mode.
+Checksums-Sha1:
+ 70dc06ba5eb9ed8fbbaa3279444b0d76e24cdde0 1001 shadowsocks-libev_2.4.5-1.dsc
+ 1a7cfc78ff4a71d53a2413e4aaa35609046ab2b0 8885769 shadowsocks-libev_2.4.5-1.tar.gz
+ 0ef0bd86f4abec964514de81b11db8786e061153 205976 shadowsocks-libev_2.4.5-1_amd64.deb
+ 5b67334c436ff2bd2223c05e09fa54ea049c469e 237198 libshadowsocks1_2.4.5-1_amd64.deb
+ bc28c4c8e871143a4500f0082ded317240c51a0d 5926 libshadowsocks-dev_2.4.5-1_amd64.deb
+ 1303b47a9a845ff79812a30452bb0f9fcf8469e0 2008678 libshadowsocks-dbg_2.4.5-1_amd64.deb
+Checksums-Sha256:
+ 0a64710bcfcb9c52b1e1110370c8fcb177ac06e0681b2e8b96f66183823a6056 1001 shadowsocks-libev_2.4.5-1.dsc
+ 3a990f3ff171c95068df642910bbe1bfae572de10d4dca9a46193c77215609a1 8885769 shadowsocks-libev_2.4.5-1.tar.gz
+ 28f3c42638ae8fe8eec78d683de829540965c334014d4b4c71bea5d24a64a2c5 205976 shadowsocks-libev_2.4.5-1_amd64.deb
+ d286a8dcaec559994454de7976bc4e0f8210917cbf04d897319dc753a2123e39 237198 libshadowsocks1_2.4.5-1_amd64.deb
+ f9965594e665d7fba3d1c177b1d4ae0abe11aaca689c3e37a8737df911160767 5926 libshadowsocks-dev_2.4.5-1_amd64.deb
+ db2db15d14c0b2dc55542cb3be3470af8553e610e3b262829567f4475d8fcac6 2008678 libshadowsocks-dbg_2.4.5-1_amd64.deb
+Files:
+ 5a4ce1cb5ed0f927c8705878bda45a6b 1001 net extra shadowsocks-libev_2.4.5-1.dsc
+ 18cc303a1c52aa1a855c21bb22431ecc 8885769 net extra shadowsocks-libev_2.4.5-1.tar.gz
+ 86ac8f968e9ee6366271999fe23d4793 205976 net extra shadowsocks-libev_2.4.5-1_amd64.deb
+ 3fe909f590547fd6efab73a38240c467 237198 libs extra libshadowsocks1_2.4.5-1_amd64.deb
+ 87d50baf2ad1d5daf28ff24b6d3225bf 5926 libdevel extra libshadowsocks-dev_2.4.5-1_amd64.deb
+ 8028d8d5d797329667fae371c1bd277a 2008678 debug extra libshadowsocks-dbg_2.4.5-1_amd64.deb
